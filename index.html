@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M&C Kisekae Maker</title>
+    <link rel="stylesheet" href="home.css" />
+    <script src="home.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Courier+Prime:wght@400;700&family=Fredoka:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>M&C Kisekae Maker</h1>
+        <p class="subtitle">Have fun coordinating their looks!</p>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="error-message" id="errorMessage"></div>
+            <div class="loading-spinner" id="loadingSpinner">
+                <div class="spinner"></div>
+            </div>
+            <!-- Preview Section -->
+            <div class="preview-section">
+                <div class="preview-label">Preview</div>
+                <canvas id="canvas-main" width="512" height="512"></canvas>
+                <div class="button-group">
+                    <button class="btn-primary" id="downloadBtn">📥 Download</button>
+                    <button class="btn-secondary" id="resetBtn">🔄 Reset</button>
+                </div>
+            </div>
+
+            <div class="parts-section">
+                <div class="tabs">
+                    <button class="tab-button active" data-tab="background">Background</button>
+                    <button class="tab-button" data-tab="body-momo">Body-Momo</button>
+                    <button class="tab-button" data-tab="outfit-momo">Outfit-Momo</button>
+                    <button class="tab-button" data-tab="body-cocoa">Body-Cocoa</button>
+                    <button class="tab-button" data-tab="outfit-cocoa">Outfit-Cocoa</button>
+                    <div id="background" class="tab-content active"></div>
+                    <div id="body-momo" class="tab-content"></div>
+                    <div id="outfit-momo" class="tab-content"></div>
+                    <div id="body-cocoa" class="tab-content"></div>
+                    <div id="outfit-cocoa" class="tab-content"></div>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>
