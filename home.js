@@ -2,38 +2,38 @@
 // Parts data
 const PARTS_DATA = {
     background: [
-        { id: 1, name: 'Dance Hall', url: '/img/background_1.jpg' },
-        { id: 2, name: 'Cafe', url: '/img/background_2.jpg' },
-        { id: 3, name: 'Limsa', url: '/img/background_3.jpg' },
-        { id: 4, name: 'Bed Room', url: '/img/background_4.jpg' },
-        { id: 5, name: 'Wear Shop', url: '/img/background_5.jpg' }
+        { id: 1, name: 'Dance Hall', url: 'img/background_1.jpg' },
+        { id: 2, name: 'Cafe', url: 'img/background_2.jpg' },
+        { id: 3, name: 'Limsa', url: 'img/background_3.jpg' },
+        { id: 4, name: 'Bed Room', url: 'img/background_4.jpg' },
+        { id: 5, name: 'Wear Shop', url: 'img/background_5.jpg' }
     ],
     'body-momo': [
-        { id: 1, name: 'Body-momo 1', url: '/img/body_momo_1.png' }
+        { id: 1, name: 'Body-momo 1', url: 'img/body_momo_1.png' }
     ],
     'body-cocoa': [
-        { id: 1, name: 'Body-cocoa 1', url: '/img/body_cocoa_1.png' }
+        { id: 1, name: 'Body-cocoa 1', url: 'img/body_cocoa_1.png' }
     ],
     'outfit-momo': [
-        { id: 1, name: 'Outfit-momo 1', url: '/img/outfit_momo_1.png' },
-        { id: 2, name: 'Outfit-momo 2', url: '/img/outfit_momo_2.png' },
-        { id: 3, name: 'Outfit-momo 3', url: '/img/outfit_momo_3.png' },
-        { id: 4, name: 'Outfit-momo 4', url: '/img/outfit_momo_4.png' },
-        { id: 5, name: 'Outfit-momo 5', url: '/img/outfit_momo_5.png' },
-        { id: 6, name: 'Outfit-momo 6', url: '/img/outfit_momo_6.png' },
-        { id: 7, name: 'Outfit-momo 7', url: '/img/outfit_momo_7.png' },
-        { id: 8, name: 'Outfit-momo 8', url: '/img/outfit_momo_8.png' }
+        { id: 1, name: 'Outfit-momo 1', url: 'img/outfit_momo_1.png' },
+        { id: 2, name: 'Outfit-momo 2', url: 'img/outfit_momo_2.png' },
+        { id: 3, name: 'Outfit-momo 3', url: 'img/outfit_momo_3.png' },
+        { id: 4, name: 'Outfit-momo 4', url: 'img/outfit_momo_4.png' },
+        { id: 5, name: 'Outfit-momo 5', url: 'img/outfit_momo_5.png' },
+        { id: 6, name: 'Outfit-momo 6', url: 'img/outfit_momo_6.png' },
+        { id: 7, name: 'Outfit-momo 7', url: 'img/outfit_momo_7.png' },
+        { id: 8, name: 'Outfit-momo 8', url: 'img/outfit_momo_8.png' }
 
     ],
     'outfit-cocoa': [
-        { id: 1, name: 'Outfit-cocoa 1', url: '/img/outfit_cocoa_1.png' },
-        { id: 2, name: 'Outfit-cocoa 2', url: '/img/outfit_cocoa_2.png' },
-        { id: 3, name: 'Outfit-cocoa 3', url: '/img/outfit_cocoa_3.png' },
-        { id: 4, name: 'Outfit-cocoa 4', url: '/img/outfit_cocoa_4.png' },
-        { id: 5, name: 'Outfit-cocoa 5', url: '/img/outfit_cocoa_5.png' },
-        { id: 6, name: 'Outfit-cocoa 6', url: '/img/outfit_cocoa_6.png' },
-        { id: 7, name: 'Outfit-cocoa 7', url: '/img/outfit_cocoa_7.png' },
-        { id: 8, name: 'Outfit-cocoa 8', url: '/img/outfit_cocoa_8.png' },
+        { id: 1, name: 'Outfit-cocoa 1', url: 'img/outfit_cocoa_1.png' },
+        { id: 2, name: 'Outfit-cocoa 2', url: 'img/outfit_cocoa_2.png' },
+        { id: 3, name: 'Outfit-cocoa 3', url: 'img/outfit_cocoa_3.png' },
+        { id: 4, name: 'Outfit-cocoa 4', url: 'img/outfit_cocoa_4.png' },
+        { id: 5, name: 'Outfit-cocoa 5', url: 'img/outfit_cocoa_5.png' },
+        { id: 6, name: 'Outfit-cocoa 6', url: 'img/outfit_cocoa_6.png' },
+        { id: 7, name: 'Outfit-cocoa 7', url: 'img/outfit_cocoa_7.png' },
+        { id: 8, name: 'Outfit-cocoa 8', url: 'img/outfit_cocoa_8.png' },
     ]
 };
 
